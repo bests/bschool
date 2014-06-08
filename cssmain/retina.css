@@ -1,0 +1,83 @@
+.fs-img2 {
+			/* Image will default to the 240px CSS wide image */
+			width:100%;
+		
+			font-family: 'image-set( url(-small|-small-2x) 2x high-bandwidth )';
+			
+}
+@media (min-width:600px) {
+			/* If the window's width is at least 600px wide then it should show the 320px CSS wide image */
+			.fs-img {
+				font-family: 'image-set( url(-small|-medium), url(-small|-medium-2x) 2x high-bandwidth )';
+				border-left:4px solid blue;
+			}
+}
+@media (min-width:800px) {
+			/* If the window's width is at least 800px wide then it should show the 480px CSS wide image, but set the image's max-width to 480px */
+.fs-img {
+				font-family: 'image-set( url(-small|-large), url(-small|-large-2x) 2x high-bandwidth )';
+				max-width:480px;
+				border-left:4px solid green;
+}
+.fs-img {
+		/*<img data-src="http://static.cdnconnect.com/foresightjs/chateau-de-maintenon_1X.jpg" data-high-resolution-src="http://static.cdnconnect.com/foresightjs/chateau-de-maintenon_2X.jpg" data-width="320" data-height="213" class="fs-img">
+		 * The image will go 100% of the parent elements width
+		 * And will not get any wider than 800px
+		 * This has one image-set variant applies to all scenarios
+		 * If the device pixel ratio is greater than 1 and the
+		 * device is not high-speed, foresight.js will
+		 * know not to request the hi-res image
+		<img data-src="http://foresightjs.appspot.com/dynamic-images/800px-wright-flyer.jpg" data-width="800" data-height="477" class="fs-img"> */
+		width:100%;
+		max-width:800px;
+		font-family: 'image-set( url({browserWidth}px-|{requestWidth}px-) )';
+		display:none;
+	}
+	
+		.exampleA {
+		/* Low-res uses the original src */
+		/* Hi-res adds a "-2x" at the end of the filename */
+		font-family: 'image-set( url({src}), url({protocol}{host}{directory}{filename}-2x.{ext}) 2x high-bandwidth )';
+		display:none;
+	}
+		.exampleAn {
+		/* <img data-src="http://static.cdnconnect.com/foresightjs/320px-lac-du-Milieu.jpg" data-width="320" data-height="213" class="exampleAn">
+		 * Low-res is the original source, which is the default 
+		 * Hi-res replaces the browser width, in this case '320px', with the request width
+		 */
+		font-family: 'image-set( url(320px-|{requestWidth}px-) 2x high-bandwidth )';
+		display:none;
+	}
+@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+	only screen and (-o-min-device-pixel-ratio: 13/10),
+	only screen and (min-resolution: 120dpi)
+	{
+	
+nav a#pull:after {
+        background-image: url("../img/nav-icon@2x.png");
+        background-size: 18px 18px;
+		
+		/* Your code to swap higher DPI images */
+	}
+	}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    nav a#pull:after {
+        background-image: url("../img/nav-icon@2x.png");
+        background-size: 18px 18px;
+		
+		/* Your code to swap higher DPI images */
+	}
+
+}
+@media (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (-webkit-min-device-pixel-ratio: 1.5),
+       (min-device-pixel-ratio: 1.5),
+       (min-resolution: 144dpi),
+       (min-resolution: 1.5dppx) {
+		
+}

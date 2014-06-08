@@ -1,0 +1,159 @@
+.gallery .title {
+
+color:#fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 60px;
+}
+.gallery .title h1 {
+
+color:#fff;
+
+}
+.accordion-inner .span5 {
+padding: 15px;
+}
+.ajax2:hover, .pro:hover{
+	
+color: #ffffff;
+background-color: #666;	
+	
+}
+.ajax2,.pro{
+	
+color: #ffffff;
+background-color: #2f96b4;	
+	
+}
+#hugex{
+	padding-top:40px;
+	padding-bottom:40px;
+	
+}
+.icons {
+font-size: 90px;
+margin-bottom: 10px;
+line-height: 24px;
+margin-right: 35px;
+color: #4DC5D9;
+}
+@media (min-width: 1200px){
+	
+.mosaic-block {
+width: 33.2%;
+min-height: 391px;
+margin: 0px;
+overflow: hidden;
+}	
+.accordion-inner .span4 {
+width: 37%;
+}
+.accordion-inner .span5 {
+width: 63%;
+height: 292px;
+margin-left: 0px;
+}
+
+}
+@media (max-width: 1200px) and (min-width: 980px){
+.mosaic-block {
+width: 24.7%;
+min-height: 234px;
+}
+
+.accordion-inner .span4{
+	width:37%;
+
+}
+
+.accordion-inner .span5{
+	width:63%;
+	height:292px;
+	
+	margin-left:0px;
+
+}					
+}
+
+
+@media (max-width: 979px) and (min-width: 768px){
+.mosaic-block {
+	width: 32.99%;
+min-height: 240px;
+}		
+.accordion-inner .span4{
+	width:50%;
+
+}
+	
+.accordion-inner .span5{
+	width: 50%;
+height: 244px;
+margin-left: 0px;
+
+}				
+
+}
+@media (max-width: 767px){
+.mosaic-block {
+width: 45.7%;
+min-height: 249px;
+}
+.mosiac-parent {
+	margin-left: 50px;
+	
+}
+.accordion-inner .span4{
+	width:70%;
+	margin-bottom:0px;
+
+}
+.accordion-inner .span4 img{
+	width:70%;
+
+	
+}	
+.accordion-inner .span5{
+	width: 70%;
+height: 234px;
+margin-left: 0px;
+padding:0px;
+
+}				
+}
+@media (max-width: 670px){
+.mosiac-parent {
+    margin-left: 95px;
+}	
+.mosaic-block {
+min-height: 274px;
+    width: 272px;
+	margin:9px;
+}			
+	
+}
+@media (max-width: 540px){
+.mosiac-parent {
+    margin-left: 75px;
+}	
+.mosaic-block {
+min-height: 233px;
+    width: 232px;
+	margin:9px;
+}
+			
+}
+
+@media (max-width: 460px){
+
+.mosiac-parent {
+    margin-left: 27px;
+}	
+	.mosaic-block {
+min-height: 233px;
+    width: 232px;
+	margin:9px;
+}			
+
+}

@@ -1,0 +1,25 @@
+.cloud7{
+
+	z-index:10;
+	opacity:0.78;
+	background:url(../img/cloud7.png) 0 0 no-repeat;
+width: 203px;
+height: 140px;
+	top: 21%;
+animation:cloud7;
+-webkit-animation-name: cloud7;
+-webkit-animation-duration: 180s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: cloud7;
+-moz-animation-duration: 340s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+animation-name: cloud7;
+	animation-duration: 250s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+}

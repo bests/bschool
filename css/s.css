@@ -1,0 +1,351 @@
+/*
+Theme created for use with Sequence.js (http://www.sequencejs.com/)
+
+Theme: Modern Slide In
+Version: 1.3
+Theme Author: Ian Lunn @IanLunn
+Author URL: http://www.ianlunn.co.uk/
+Theme URL: http://www.sequencejs.com/themes/modern-slide-in/
+
+This is a FREE theme and is available under a MIT License:
+http://www.opensource.org/licenses/mit-license.php
+
+Sequence.js and its dependencies are (c) Ian Lunn Design 2012 - 2013 unless otherwise stated.
+*/
+/* CSS RESET - http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* !CSS RESET */
+/* prefix declarations */
+/* THEME STYLES */
+.sequence-theme {
+  /* this container is just to ensure the background color stretches all the way across on bigger screens */
+  background: #D9D9D9;
+}
+
+#sequence {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+ 
+  background-color: #D9D9D9;
+ max-width: 1800px;
+margin-left: -480px;
+
+  color: white;
+  font-size: 0.625em;
+  margin: 0 auto;
+  position: relative;
+ 
+}
+#sequence > .sequence-canvas {
+  height: 100%;
+  width: 100%;
+}
+#sequence > .sequence-canvas > li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: -50%;
+}
+#sequence > .sequence-canvas > li img {
+ 
+}
+#sequence > .sequence-canvas li > * {
+  position: absolute;
+  /* only cause the left and opacity properties to transition */
+  -webkit-transition-property: left, opacity;
+  -moz-transition-property: left, opacity;
+  -ms-transition-property: left, opacity;
+  -o-transition-property: left, opacity;
+  transition-property: left, opacity;
+}
+
+.sequence-next,
+.sequence-prev {
+  
+  cursor: pointer;
+  display: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+  height: 75px;
+  margin-top: -47.5px;
+}
+
+.sequence-pause {
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+}
+
+.sequence-paused {
+  opacity: 0.3;
+}
+
+.sequence-prev {
+  left: 3%;
+}
+
+.sequence-next {
+  right: 3%;
+}
+
+.sequence-prev img,
+.sequence-next img {
+  height: 100%;
+  width: auto;
+}
+
+#sequence-preloader {
+  background: #d9d9d9;
+}
+
+.sequence-pagination {
+  bottom: 1%;
+  display: none;
+  right: 70%;
+  position: absolute;
+  z-index: 10;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.sequence-pagination li {
+  display: inline-block;
+  *display: inline;
+  /* Hack for IE7 and below as they don't support inline-block */
+  height: 140px;
+}
+.sequence-pagination li img {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: margin-bottom, opacity;
+  -moz-transition-property: margin-bottom, opacity;
+  -ms-transition-property: margin-bottom, opacity;
+  -o-transition-property: margin-bottom, opacity;
+  transition-property: margin-bottom, opacity;
+}
+.sequence-pagination li img:hover {
+  margin-bottom: 4px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.sequence-pagination li.current img {
+  opacity: 1;
+}
+
+
+
+.sequence-next,
+.sequence-prev {
+  position: absolute;
+  opacity: 0.6;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.sequence-next:hover,
+.sequence-prev:hover {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence h2 {
+	color:#fff;
+  
+}
+.animate-in .title {
+	color:#fff;
+  font-size: 3.4em;
+  left: 65%;
+  width: 35%;
+  opacity: 0;
+  bottom: 1%;
+  z-index: 50;
+}
+
+.animate-in .title {
+  left: 50%;
+  opacity: 1;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.animate-out .title {
+  left: 35%;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.subtitle {
+  color: black;
+  font-size: 2em;
+  left: 35%;
+  width: 35%;
+  opacity: 0;
+  top: 101%;
+}
+
+.animate-in .subtitle {
+  left: 50%;
+  opacity: 1;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.animate-out .subtitle {
+  left: 65%;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.model {
+  left: 150%;
+  bottom: -50%;
+  opacity: 0;
+  position: relative;
+  height: auto !important;
+ 
+  /* prevents the model from shrinking when the browser is resized */
+ 
+}
+
+.animate-in .model {
+ left:150%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .model {
+  right: 180%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+@media (max-width: 767px) {
+	
+
+
+}
+@media(min-width:768px){
+.tablets{
+	width:800px;
+	
+	}	
+
+.animate-in .tablets {
+left: 50%;
+margin-left: -441px;
+}
+	
+#sequence {
+  
+  height: 350px;
+}
+
+
+}
+
+@media(min-width:992px){
+	.tablets{
+	width:900px;
+	
+	}	
+
+.animate-in .tablets {
+left: 50%;
+margin-left: -492px;
+}
+	
+#sequence {
+  
+  height: 400px;
+}
+}
+
+@media (min-width: 1200px) {
+.tablets{
+	width:auto;
+	
+	}	
+.animate-in .tablets {
+left: 50%;
+margin-left: -622px;
+}
+.animate-out .tablets {
+left: 50%;
+margin-left: -622px;
+}	
+.model {
+  left: 150%;
+ margin-left: -622px;
+  
+ 
+}	
+#sequence {
+  
+  height: 600px;
+}
+}

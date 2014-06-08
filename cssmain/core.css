@@ -1,0 +1,909 @@
+/* ================= 
+FONTS
+
+Font generator
+http://fontello.com/
+Location
+/CSS/Font
+
+=====================*/
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-black-webfont.eot');
+  src: url('font/lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-black-webfont.woff') format('woff'), url('font/lato/lato-black-webfont.ttf') format('truetype'), url('font/lato/lato-black-webfont.svg#latoblack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-bold-webfont.eot');
+  src: url('font/lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-bold-webfont.woff') format('woff'), url('font/lato/lato-bold-webfont.ttf') format('truetype'), url('font/lato/lato-bold-webfont.svg#latobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-bolditalic-webfont.eot');
+  src: url('font/lato/lato-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-bolditalic-webfont.woff') format('woff'), url('font/lato/lato-bolditalic-webfont.ttf') format('truetype'), url('font/lato/lato-bolditalic-webfont.svg#latobold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-italic-webfont.eot');
+  src: url('font/lato/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-italic-webfont.woff') format('woff'), url('font/lato/lato-italic-webfont.ttf') format('truetype'), url('font/lato/lato-italic-webfont.svg#latoitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-light-webfont.eot');
+  src: url('font/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-light-webfont.woff') format('woff'), url('font/lato/lato-light-webfont.ttf') format('truetype'), url('font/lato/lato-light-webfont.svg#latolight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('font/lato/lato-regular-webfont.eot');
+  src: url('font/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('font/lato/lato-regular-webfont.woff') format('woff'), url('font/lato/lato-regular-webfont.ttf') format('truetype'), url('font/lato/lato-regular-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Flat-UI-Icons';
+  src: url('font/Flat-UI-Icons.eot');
+  src: url('font/Flat-UI-Icons.eot?#iefix') format('embedded-opentype'), url('font/Flat-UI-Icons.woff') format('woff'), url('font/Flat-UI-Icons.ttf') format('truetype'), url('font/Flat-UI-Icons.svg#Flat-UI-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'Flat-UI-Icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('font/opensans-bold-webfont.eot');
+    src: url('font/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-bold-webfont.woff') format('woff'),
+         url('font/opensans-bold-webfont.ttf') format('truetype'),
+         url('font/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('font/opensans-light-webfont.eot');
+    src: url('font/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-light-webfont.woff') format('woff'),
+         url('font/opensans-light-webfont.ttf') format('truetype'),
+         url('font/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}			
+			
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('font/opensans-regular-webfont.eot');
+    src: url('font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-regular-webfont.woff') format('woff'),
+         url('font/opensans-regular-webfont.ttf') format('truetype'),
+         url('font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#myTab{
+	padding-bottom:10px;
+	padding-right:10px;
+	
+	
+}
+.bs-docs-example h2{
+	
+	
+	
+}
+body {
+	background-color: #3E3F47;
+	color:#8A8A8A;
+	
+	   font-family: 'open_sansregular', sans-serif;		
+	   font-family: "Lato", Helvetica, Arial, sans-serif;		
+	   overflow-x: hidden;	
+            }
+
+ .btn:hover, .btn:focus {
+color: #fff;
+background-color:#AAD03C ;
+text-decoration: none;
+}           
+.btn {text-transform: uppercase;
+border: 0;
+border-radius: 0px;
+padding: 1em 2.0em 1em;
+box-shadow: none;
+background:#2F93AD;
+color: #fff;
+text-transform: uppercase;
+margin-right: 10px;
+text-shadow: none;
+font-size: 13px;
+line-height: 1;
+font-weight: bold;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+/* ================= 
+
+Modals
+
+
+
+=====================*/	
+.white{
+	
+background-color:#F9F9F9;	
+
+}		
+
+
+.whatmodal .row-fluid .span4 {
+width: 100%;
+}
+.Whatmodal {
+	border-radius: 0px;
+	outline: none;
+	position: absolute;
+	margin-top: 0;
+	top: 50%;
+	overflow: visible; /* allow content to popup out (i.e tooltips) */
+}
+
+.whatmodal.fade {
+	top: -100%;
+	-webkit-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;	
+	   -moz-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
+	     -o-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
+	        transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
+}
+
+
+/* ================= 
+
+Modals
+
+=====================*/		
+.paddingbottombg{
+	padding-bottom:120px;
+	
+}
+.paddingbottom{
+	padding-bottom:80px;
+	
+}
+.paddingtopsm{
+	padding-top:40px;
+	
+}
+.paddingtop{
+	padding-top:80px;
+	
+}
+
+.medium{
+	
+font-size: 17px;	
+
+}
+
+.videomain {
+position: relative;
+padding-top: 0px;
+padding-bottom: 60.5%;
+width: 100%;
+height: 100%;
+margin-bottom: 0px;
+}
+.videoin {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+display: inline-block;
+width: 1em;
+height: 0px;
+height:100%;
+margin-top: 0px;
+line-height: 14px;
+vertical-align: text-top;
+
+background-image:none;
+}
+html {
+height: 100%;
+width: 100%;
+
+}
+
+body {
+
+height: 100%;
+width: 100%;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.title h2{
+	font-size:55px;
+	
+	}
+.nav-tabs {
+ border-bottom:0px solid #dddddd; */
+}	
+.nav {
+margin-bottom: 10px;
+
+}	
+	
+strong{
+	color:#2F93AD;}
+.tick {
+background: transparent url('../img/tickww.png') 0 0 no-repeat;
+background-size: 140px 35px;
+z-index:4;
+height: 35px;
+left: 50%;
+margin-left: -70px;
+position: absolute;
+width: 140px;
+margin-top: -1px;
+}
+
+
+
+nav {
+background-color: #FFFFFF;
+background-repeat: repeat-x;
+border-color: #252525;
+
+width: 100%;
+
+}
+
+ 
+nav ul {
+
+	padding: 0;
+	width:650px;
+
+
+	
+}
+
+nav li {
+
+text-align: center;
+float: left;
+}
+.minilogo {
+z-index: 2000;
+
+position: fixed;
+}
+#menu-arrowx {
+visibility: hidden;
+}
+.top-arrow {
+background-color: #45A2D6;
+z-index: 2259;
+top: 44px;
+position: fixed;
+display: inline-block;
+width: 34px;
+height: 6px;
+-webkit-transition: left 0.5s ease-in-out;
+-moz-transition: left 0.5s ease-in-out;
+-o-transition: left 0.5s ease-in-out;
+transition: left 0.5s ease-in-out;
+}
+.parallax-1 .title {
+color: #fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+
+}
+.parallax-1 .title h2 {
+color: #fff;
+
+}
+.touch .parallax-1 {
+background-position: center top !important;
+background-attachment: scroll !important;
+}
+#map-canvas {
+width: 100%;
+height: 500px;
+}
+
+#main{
+
+height: 100%;
+width:100%;	
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #555555;
+background-color: #2F93AD; */
+border: 0px solid #dddddd;
+border-bottom-color: transparent;
+cursor: default;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+text-decoration: none;
+background-color: #AAD03C;
+}
+.nav-tabs > li > a {
+	color: #ffffff;
+	background-color: #AAD03C;
+margin-right: 2px;
+line-height: 1.428571429;
+border: 1px solid transparent;
+border-radius: 0 0 0 0;
+}
+.parallax-1 {
+	position:relative;
+	z-index:0;
+background-color: #2C3E50;	
+background-image: url(../img/ko2.png);
+background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.overlay{
+
+}
+.parallax-2 {
+background-image: url(../img/img-6.jpg);	
+background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+	position:fixed;
+}
+.parallax-2 .container {
+position: relative;
+z-index: 0;
+}
+
+
+.parallax p {
+font-size: 50px;
+font-weight: 700;
+color: #FFF;
+}
+			
+
+.price{
+background-color: #FFF;
+position:relative;
+}
+.titlebg h2 {
+	color:#F9F9F9;
+	margin-bottom:15px;
+	font-size:70px;
+	font-weight:bold;
+
+
+text-align: center;
+}
+.titlebg{
+
+padding: 35px 0;
+
+position: relative;
+z-index: 25;background-color: #2F93AD;
+
+}
+.bluegreenbg{
+    background-color: #2F93AD;
+
+}
+.bluegreen{background: url("../img/promoblue2.png") repeat scroll 0 0 transparent;
+
+}
+.bluegreentxt {color: #AAD03C;
+
+}
+.pos{
+	
+position: relative;
+z-index: 1;	
+}
+
+.trip{background-color: #4DC5D9;background: url('../img/trip.png') center top repeat;
+}
+noise{
+	
+background: url('../img/noi.png') center top repeat;
+	
+	}
+.fadeJS-down-up{
+	opacity:0.0;
+	bottom:-200px;
+	position:relative;
+	z-index: 2;
+	
+	}	
+.fadeJS{
+	opacity:0.0;
+	
+	
+	}
+h2, .h2 {
+font-size: 45px;
+}
+h1, .h1 {
+font-size: 55px;
+}
+.anchor{
+padding-top: 40px;
+margin-top: -40px;
+	
+	}	
+.padding {
+padding-top: 70px;
+padding-bottom: 70px;
+}
+p.myclass:before, p.myclass:after {
+    content: '"';
+	
+}
+.form-control {
+background-color: #2F93AD;	
+color:#fff;
+}
+
+.middle {
+	
+padding: 55px;
+text-align: center;
+
+	
+}
+.middle p{
+
+	font-size:50px;
+	font-weight:700;
+	color:#FFF;
+	
+}
+
+hr {
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+width: 160px;
+text-align: center;
+border: 0;
+border-top: 7px solid #AAD03C;
+}
+.seven .active a:link {
+
+cursor: default !important;
+pointer-events: none;
+}
+.active a:link{
+
+}
+
+
+.moveleft{
+	left:230px;
+	
+
+}
+
+.navbar-fixed-top {
+margin-bottom: 0px;
+}
+.center {
+
+
+vertical-align: middle;
+   margin: 0 auto !important;
+   float: none !important;
+}
+#slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider1 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#slider1 .overview li{ float: none; margin: 0 20px 0 0; padding: 1px; height: 421px;
+width: auto;}
+nav a {
+color: #fff;
+display: inline-block;
+text-decoration: none;
+line-height: 53px;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.form-control.textarea::-webkit-input-placeholder {
+	color:#E2E2E1;!important
+
+}
+.form-control::-webkit-input-placeholder {
+	color:#E2E2E1;
+
+}
+.form-control::-moz-placeholder {
+	color:#E2E2E1;
+	
+}
+.form-control::-moz-placeholder {   /* Older versions of Firefox */
+	color:#E2E2E1;
+	
+}
+.form-control::-ms-input-placeholder { 
+	color:#E2E2E1;
+	
+}
+.push{
+	position:relative;
+	z-index:5;
+}
+label.error{
+	color: #8a6d3b;
+background-color: #fcf8e3;
+border-color: #faebcc;
+font-weight:normal;
+
+padding: 15px;
+
+border: 1px solid transparent;
+border-radius: 4px;
+	
+}
+.fade-in {
+opacity: 0;
+-webkit-animation: fadeIn ease-in 1;
+-moz-animation: fadeIn ease-in 1;
+animation: fadeIn ease-in 1;
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+animation-duration: 1s;
+}
+.move{
+	
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.opacity-anim-hid{
+	opacity:0;
+	display:none;
+	
+	
+}
+
+.opacitydis{
+	
+	display:block;
+	 
+}
+.opacity-anim-vis{
+	opacity:1;
+	
+	 -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+@media (max-width: 767px){
+
+
+h2, .h2 {
+font-size: 25px;
+}
+h1, .h1 {
+font-size: 44px;
+}
+}
+
+
+
+
+@media (max-width: 670px){
+	
+	
+	
+.titlebg{
+	font-size:18px;
+	position: relative;
+z-index: 8;
+}		
+			
+.titlebg h2 {
+	
+	font-size:50px;
+	
+
+
+}			
+h2, .h2 {
+font-size: 28px;
+}
+h1, .h1 {
+font-size: 44px;
+}	
+.nav-tabs > li, .nav-pills > li {
+float: none;
+}	
+}
+
+
+@media (max-width: 767px) {
+	
+	.top-arrowx{
+		display:none;
+		
+		
+		}
+
+}
+@media(min-width:768px){
+nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 45px;
+
+}	
+
+
+}
+
+@media(min-width:992px){
+	
+nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 15px;
+
+
+}
+
+}
+
+@media (min-width: 1200px) {
+	
+nav a {
+margin: 0 0 0px 15px;
+padding: 10px 15px;
+}
+
+.flot li {
+	padding-top: 10px;
+
+
+
+}
+.contact .iconimg {
+width: 50px;
+}	
+	
+}
+
+
+.cloud6x {
+z-index: 1;
+opacity: 0.78;
+background: url(../img/cloud6.png) 0 0 no-repeat;
+top: 62%;
+width: 117px;
+height: 96px;
+animation:cloud6;
+-webkit-animation-name: cloud6;
+-webkit-animation-duration: 180s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: cloud6;
+-moz-animation-duration: 340s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+animation-name: cloud6;
+	animation-duration: 250s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+}
+.cloud {
+display: block;
+
+position: absolute;
+z-index: 10;
+}
+
+@keyframes cloud6 {
+
+	0%   {right: 80%;}
+
+100%   {right: -40%;
+}
+
+}
+
+@-moz-keyframes cloud6
+{
+0%   {right: 80%;opacity:0;}
+5%   {opacity:1;}
+
+
+70%   {opacity:1;}
+
+100%   {right: -40%;
+opacity:0;}
+}
+@-webkit-keyframes cloud6
+{
+0%   {right: 80%;opacity:0;}
+5%   {right: 75%;opacity:1;}
+50%   {right: 40%;}
+
+70%   {right: 20%;opacity:1;}
+
+100%   {right: -10%;
+opacity:0;}
+}
+@-webkit-keyframes cloud2
+{
+0%   {right: -5%;}
+100%   {right: 110%;}
+}
+
+
+@-moz-keyframes cloud2
+{
+0%   {right: -5%;}
+100%   {right: 170%;}
+}
+@keyframes cloud2 {
+0%   {right: -5%;}
+100%   {right: 110%;}
+
+}
+.navbar {
+
+border: 0px solid transparent;
+}
+.cloud2x{
+
+	z-index:10;
+	opacity:0.78;
+	background:url(../img/cloud2.png) 0 0 no-repeat;
+width: 203px;
+height: 140px;
+	top: 12%;
+animation:cloud2;
+-webkit-animation-name: cloud2;
+-webkit-animation-duration: 105s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: cloud2;
+-moz-animation-duration: 380s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+animation-name: cloud2;
+	animation-duration: 200s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+}
+@-webkit-keyframes cloud7
+{
+0%   {right: -5%;}
+100%   {right: 110%;}
+}
+
+
+@-moz-keyframes cloud7
+{
+0%   {right: -5%;}
+100%   {right: 130%;}
+}
+@keyframes cloud7 {
+0%   {right: -5%;}
+100%   {right: 110%;}
+
+}
+
+
+.cloud8 {
+z-index: 10;
+opacity: 0.58;
+background: url(../img/cloud8.png) 0 0 no-repeat;
+top: 55%;
+width: 117px;
+height: 96px;
+-webkit-animation-name: cloud8;
+-webkit-animation-duration: 150s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: cloud8;
+-moz-animation-duration: 180s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+animation-name: cloud8;
+	animation-duration: 180s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+}
+@keyframes cloud8 {
+
+	0%   {right: 80%;}
+
+100%   {right: -10%;
+}
+
+}
+
+@-moz-keyframes cloud8
+{
+0%   {right: 90%;opacity:0;}
+5%   {opacity:1;}
+
+
+70%   {right: 0%;opacity:1;}
+90%   {opacity:0;}
+100%   {right: -10%;
+opacity:0;}
+}
+@-webkit-keyframes cloud8
+{
+0%   {right: 88%;opacity:0;}
+5%   {right: 85%;opacity:1;}
+50%   {right: 40%;}
+
+70%   {right: 20%;opacity:1;}
+
+100%   {right: -10%;
+opacity:0;}
+}

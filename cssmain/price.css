@@ -1,0 +1,86 @@
+.price .title {
+
+color:#fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 60px;
+}
+.price .title h1 {
+
+color:#fff;
+
+}
+.pricemain {
+list-style: none;
+margin: 0 0 30px 0;
+text-align: center;
+background: #3E3F47;
+color: #fff;
+padding: 20px;
+
+}
+.pricemain:hover {
+	
+cursor:pointer;
+}
+.pricemain .title {
+position: relative;
+font-size: 20px;
+font-weight: bold;
+padding: 20px;
+color: #41BACE;
+margin: -20px -20px 20px -20px;
+background-color: #FFFFFF;
+
+}
+.pricemain .pricetitle span {
+font-size: 22px;
+font-weight: normal;
+
+}
+.pricemain .pricetitle {
+font-size: 55px;
+font-weight: bold;
+padding: 40px;
+margin: -20px -20px 0px -20px;
+background-color: #3E3F47;
+color: #FFF;
+
+text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(255, 255, 255, 0.2);
+}	
+
+
+
+.pricemain .description {
+
+padding: 10px;
+
+}
+
+.pricemain .price-button{
+padding: 20px;
+
+
+text-transform: uppercase;
+
+padding: 20px 0;
+margin: 23px -20px -20px -20px;
+}   
+
+@media (max-width: 979px) and (min-width: 768px){
+.price .span3 {
+	width:49%;
+margin-left:0px;
+}
+
+}
+
+@media (max-width: 670px){
+.price .span3 {
+	width:100%;
+margin-left:0px;
+}
+
+		
+}

@@ -1,0 +1,41 @@
+.work{
+
+position: relative;
+
+
+}
+.nav-tabs li.active a {
+background-color: #2F93AD;
+color: #FFFFFF !important;
+}
+
+
+.work .h3 {
+	font-size:30px;
+
+	
+
+
+}	
+
+@media (min-width: 1200px){
+
+.work .title {
+width: 70%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 70px;
+padding-top: 70px;
+
+}
+.work .iconimg{
+width:125px;
+}	
+
+
+
+}
+.circle{
+	text-align:center;
+	color:#FFF;}
