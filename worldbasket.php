@@ -899,7 +899,7 @@ $jquery = $jquery_validator->generate();
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
-<script src="http://localhost/gitxamp/js/vendor/jquery.sequence-min.js"></script>
+<script src='js/vendor/jquery.sequence-min.js'></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
  
    
@@ -963,32 +963,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-        basket.require({ url: 'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js' }).then(function () {
-          basket.require({url: 'http://localhost/gitxamp/js/vendor/jquery.sequence-min.js'},
-{ url: 'http://localhost/gitxamp/js/vendor/jquery.smooth-scroll.min.js'},
-{ url: 'http://localhost/gitxamp/js/vendor/jquery.navobile.min.js'},
-//{ url: 'http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js'},
-{ url: 'http://localhost/gitxamp/js/vendor/waypoints.min.js'},
-{ url: 'http://localhost/gitxamp/js/vendor/jquery.parallax-1.1.3.js'},
-{ url: 'http://localhost/gitxamp/js/vendor/tiny.js'}
-
-          )
-
-
-           
-
-          
-    .then(function () {
- basket.require({ url: 'http://localhost/gitxamp/js/vendor/corebask.js'});
-
-
-});
-
-
-
-
-
-});
+     
 
 
 
@@ -998,7 +973,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
+yepnope([{
+  load: 'http://localhost/bschool/js/vendor/all.min.js',
+  complete: function () {
 
+   yepnope('http://localhost/bschool/js/vendor/corebask.js'); 
+  
+  }
+
+ 
+}]);
 
 
 
@@ -1010,43 +994,7 @@ Modernizr.load({
 
 
 
-if (Modernizr.localstorage) {
 
- 
-
-
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-else {
-
-yepnope([{
-  load: 'http://localhost/gitxamp/js/vendor/core.js',
-  complete: function () {
-  
-  }
-
- 
-}]);
-
-  
-
-}
 
 
 
