@@ -615,19 +615,19 @@
               <div class="circle col-sm-4 col-md-4">
 
               <img src="img/alert.png" class="pulse moveup iconimg">
- <h3>Avisos</h3>
+ <h3>Avisos online</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
               <div class="circle col-sm-4 col-md-4">
   <img src="img/registro.png" class="pulse moveup iconimg">
- <h3>Registro en linea</h3>
+ <h3>Registros online</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
                  <div class="circle col-sm-4 col-md-4">
-  <img src="img/alert.png" class="pulse moveup iconimg">
- <h3>music.</h3>
+  <img src="img/tarea.png" class="pulse moveup iconimg">
+ <h3>Tareas online.</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
 
@@ -637,8 +637,8 @@
               
               <div class="circle col-sm-4 col-md-4">
 
-              <img src="img/alert.png" class="pulse moveup iconimg">
- <h3>We love..</h3>
+              <img src="img/marcas.png" class="pulse moveup iconimg">
+ <h3>Marcas</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
@@ -877,11 +877,6 @@ $jquery = $jquery_validator->generate();
 
 </div>
 </section>       
-      
-     
-
-  
-  
 
 
 
@@ -891,14 +886,18 @@ $jquery = $jquery_validator->generate();
 
 
 </div>  
-    <script src="js/vendor/basket.min.js"></script>  
     
     
 
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script
+      
+     
+
+  
+   src="js/vendor/jquery.js"><\/script>')</script>
 <script src='js/vendor/jquery.sequence-min.js'></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
  
