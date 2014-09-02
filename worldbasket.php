@@ -10,10 +10,10 @@
      <title>waka</title> 
      <link type="text/css" rel="stylesheet" href="cssmain/bootstrap.css" /> 
  <link type="text/css" rel="stylesheet" href="cssmain/modal.css" />
-  
+  <link type="text/css" rel="stylesheet" href="cssmain/nav.css" />
        <link type="text/css" rel="stylesheet" href="cssmain/core.css" /> 
       <link type="text/css" rel="stylesheet" href="cssmain/fontello.css" /> 
-    <link type="text/css" rel="stylesheet" href="cssmain/navobile.css" /> 
+    
          <link type="text/css" rel="stylesheet" href="cssmain/home.css" /> 
           <link type="text/css" rel="stylesheet" href="cssmain/features.css" /> 
          <link type="text/css" rel="stylesheet" href="cssmain/animate.css" /> 
@@ -55,18 +55,19 @@
  <div id="menu-arrowx" class="top-arrow"></div>
  <div class="cloud clod3 cloud6"></div><div class="cloud clod3 cloud2"></div>
     <div class="cloud clod3 cloud7"></div><div class="cloud clod3 cloud8"></div>
-              
-      <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
-  <div class="navbar-header">
-   <a class="navbar-brand" href="#">Simple</a>  
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
+       
+
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
  
-</nav>        
+    
+    
+  
+
+
+
+
+
+      
       <div class="navi">
           <ul id="res" class="seven nav navbar-nav navbar-right">
      <li><a href="#home">Home</a></li>
@@ -80,7 +81,9 @@
     </ul>
     
   </div>
-          
+    
+</header>
+     
     
   <div id="main" class="content">
   
@@ -102,7 +105,7 @@
  
  <div class="title">
  
-<h2>Escuelas lideres en Mexico</h2><br>
+<h2>Escuelas lideres en Mxico</h2><br>
 
 
    <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
@@ -896,12 +899,15 @@ $jquery = $jquery_validator->generate();
       
      
 
+
   
    src="js/vendor/jquery.js"><\/script>')</script>
+   
 <script src='js/vendor/jquery.sequence-min.js'></script>
+<script src='js/vendor/nav.min.js'></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
  
-   
+   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
    
  
  
