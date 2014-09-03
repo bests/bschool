@@ -247,21 +247,7 @@ width: auto;
 }
 .navi {
 	
-width: 250px;
-top: 0;
-bottom: 0;
-height: 100%;
-position: fixed;
 
-
-box-sizing: content-box;
-
-
-	
-	height: 100%;
-	width:auto !important;
-background-color: #2C3E50;
-z-index:1;
 
 }
 
