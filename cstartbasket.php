@@ -1,7 +1,8 @@
 <?php
-require_once("phpfastcache/phpfastcache.php");
+include("php_fast_cache.php");
+phpFastCache::$storage = "auto";
 
-$cache = phpFastCache("files");
+ 
 
 
 // keyword = Webpage_URL
@@ -19,7 +20,7 @@ $caching = true;
 
 // ONLY ACCESS CACHE IF $CACHE = TRUE
 if($caching == true ) {
-   $html = $cache->get($keyword_webpage);
+  $html = phpFastCache::get($keyword_webpage);
 }
 
 
@@ -30,14 +31,14 @@ if($html == null) {
 
      $html = ob_get_contents();
     // Save to Cache 30 minutes
-    $cache->set($keyword_webpage,$html, 1800);
+    phpFastCache::set($keyword_webpage,$html, 1800);
   }else {
 //echo "<h1>cahced</h1>";
   	echo $html;
   	
   }
   
-$cache->clean();
+//$cache->clean();
 
 ?>
    
