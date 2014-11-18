@@ -7,7 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">   
         <meta name="description" content="">
  
-     <title>waka</title> 
+     <title>waksssvvvva</title> 
      <link type="text/css" rel="stylesheet" href="cssmain/bootstrap.css" /> 
  <link type="text/css" rel="stylesheet" href="cssmain/modal.css" />
   <link type="text/css" rel="stylesheet" href="cssmain/nav.css" />
@@ -979,10 +979,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 yepnope([{
-  load: 'http://localhost/bschool/js/vendor/all.min.js',
+  load: 'http://localhost:8080/bschool/js/vendor/all.min.js',
   complete: function () {
 
-   yepnope('http://localhost/bschool/js/vendor/corebask.js'); 
+   yepnope('http://localhost:8080/bschool/js/vendor/corebask.js');
   
   }
 
@@ -993,8 +993,8 @@ yepnope([{
 
 Modernizr.load({
   test: Modernizr.csstransitions,
-  yep : 'http://localhost/gitxamp/cssmain/cloudsmove.css',
-  nope: 'http://localhost/gitxamp/cssmain/fixes.css'
+  yep : 'http://localhost:8080/bschool/cssmain/cloudsmove.css',
+  nope: 'http://localhost:8080/bschool/cssmain/fixes.css'
 });
 
 

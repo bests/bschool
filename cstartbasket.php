@@ -33,12 +33,12 @@ if($html == null) {
     // Save to Cache 30 minutes
     phpFastCache::set($keyword_webpage,$html, 1800);
   }else {
-//echo "<h1>cahced</h1>";
-  	echo $html;
+//echo $keyword_webpage;
+  echo $html;
   	
   }
-  
-//$cache->clean();
+
+//phpFastCache::clean();
 
 ?>
    

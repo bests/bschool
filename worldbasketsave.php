@@ -976,10 +976,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 yepnope([{
-  load: 'http://localhost/bschool/js/vendor/all.min.js',
+  load: 'http://localhost:8080/bschool/js/vendor/all.min.js',
   complete: function () {
 
-   yepnope('http://localhost/bschool/js/vendor/corebask.js'); 
+   yepnope('http://localhost:8080/bschool/js/vendor/corebask.js');
   
   }
 
